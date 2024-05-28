@@ -1,13 +1,25 @@
 .menu {
     display: flex;
   }
+
+.hero {
+  display: flex;
+  margin-top: 50px;
+}
   
-.menu div {
-    border: 4px solid brown;
-    height: 100px;
+.header {
     flex: 1; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1f2937;
   }
 
-.header {
-    background-color: #1f2937;
+.menu div:nth-child(1){
+  flex-grow: 3;
+}
+
+.hero div {
+  flex-basis: 100%;
 }
