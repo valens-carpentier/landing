@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0px;
 }
 
-.menu {
+.menu, .placeholder, .call-to-action {
     display: flex;
   }
 
@@ -23,8 +24,8 @@ body {
 }
   
 .links {
-  font-size: 18px;
-  color: #e5e7eb;
+  font-size: 16px;
+  color: grey;
 }
 
 .links a {
@@ -64,7 +65,9 @@ body {
 }
 
 .image-placeholder {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: grey;
 }
 
@@ -92,11 +95,100 @@ body {
 }
 
 .container {
-  border-color: blue;
+  border-color: #3882f6;
   border-style: solid;
+  border-width: 4px;
   border-radius: 10px;
   height: 150px;
   width: 150px;
   margin: 10px;
   text-align: center;
+}
+
+.container-text {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    font-size: small;
+    color: grey;
+    font-weight: lighter;
+}
+
+.quote-section {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  width: 600px;
+  margin: auto;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 20;
+  margin-top: 100px;
+}
+
+.author {
+  width: 600px;
+  margin: auto;
+  font-style: italic;
+  font-size: 20px;
+  font-weight:bold;
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+.call-to-action div {
+  margin: auto;
+}
+
+
+.placeholder {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 750px;
+}
+
+.call-to-action {
+  padding: 50px;
+  color: white;
+}
+
+.button-2 {
+  background-color: #3882f6;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.placeholder h3 {
+  margin-top: 30px;
+  margin-bottom: 2px;
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+.placeholder p {
+  margin-top: 2px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
 }

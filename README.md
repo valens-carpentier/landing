@@ -1,1 +1,1 @@
-# landing
+This is the first ever website I designed with the Odin Project
